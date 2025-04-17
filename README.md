@@ -1,8 +1,11 @@
 # stm32-esp8266-environmental-monitor
-Environmental Monitoring System Based on STM32 and ESP8266
-大三课设-基于stm32和ESP8266的环境监测系统
-##简述
-基于STM32的环境监测系统，集成温湿度、空气质量、声音强度检测功能。
+- Environmental Monitoring System Based on STM32 and ESP8266
+- 大三课设-基于stm32和ESP8266的环境监测系统
+
+## 简述
+- 基于STM32的环境监测系统，集成温湿度、空气质量、声音强度检测功能。
+- 实现环境参数的实时监控、显示，异常报警以及数据的远程上传。
+- 云平台功能未完全实现：受限于项目周期，仅完成温湿度数据上传，未来需扩展MQTT协议以支持多参数传输。
 
 ## 功能特点
 
