@@ -1,0 +1,52 @@
+# STM32 Build Results
+*.o
+*.d
+*.crf
+*.htm
+*.dep
+*.map
+*.bak
+*.lnp
+*.lst
+*.ini
+*.iex
+*.hex
+*.bin
+*.elf
+
+# Keil Project Files
+*.uvguix.*
+*.uvoptx
+*.uvprojx
+JLinkLog.txt
+JLinkSettings.ini
+
+# Object Files
+*.obj
+*.axf
+
+# MDK-ARM
+MDK-ARM/*
+!MDK-ARM/*.uvprojx
+!MDK-ARM/*.uvoptx
+
+# Debug Files
+*.dbgconf
+*.scvd
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# User Specific Files
+*.user
+*.user.*
+*.bak
+*.tmp
+
+# Build Directory
+build/
+Debug/
+Release/
